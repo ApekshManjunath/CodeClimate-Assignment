@@ -10,7 +10,6 @@ def calculate_volume(length, width, height):
     volume = length * width * height
     return volume
 
-
 # To avoid duplication of code, we can combine the logic for area and perimeter calculations in one function.
 def calculate_area_perimeter(length, width):
     area = calculate_area(length, width)
