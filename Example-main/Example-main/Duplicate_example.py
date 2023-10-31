@@ -10,9 +10,6 @@ def calculate_volume(length, width, height):
     volume = length * width * height
     return volume
 
-def calculate_surface_area(length, width, height):
-    surface_area = 2 * (length * width + length * height + width * height)
-    return surface_area
 
 # To avoid duplication of code, we can combine the logic for area and perimeter calculations in one function.
 def calculate_area_perimeter(length, width):
